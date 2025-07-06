@@ -1,0 +1,78 @@
+.members-container {
+  background-color: #000016;
+  color: #0ff;
+  padding: 3rem 1rem;
+  text-align: center;
+  min-height: 100vh;
+  font-family: "Orbitron", sans-serif;
+}
+
+.members-title {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  text-shadow: 0 0 8px #0ff;
+}
+
+.member-card {
+  background-color: #111122;
+  border: 1px solid #0ff;
+  border-radius: 15px;
+  padding: 1.5rem;
+  box-shadow: 0 0 15px #0ff44d;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.member-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 0 25px #0ff;
+}
+
+.member-img {
+  width: 100%;
+  border-radius: 50%;
+  border: 3px solid #0ff;
+  margin-bottom: 1rem;
+}
+
+.member-name {
+  font-size: 1.25rem;
+  text-shadow: 0 0 6px #0ff;
+}
+
+.member-role {
+  font-size: 0.95rem;
+  color: #aaaaff;
+}
+@media (max-width: 768px) {
+  .members-title {
+    font-size: 2rem;
+  }
+
+  .member-card {
+    padding: 1rem;
+  }
+
+  .member-name {
+    font-size: 1.1rem;
+  }
+
+  .member-role {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .members-title {
+    font-size: 1.5rem;
+  }
+
+  .member-img {
+    width: 60%;
+    max-width: 180px;
+  }
+
+  .member-card {
+    margin: 1rem auto;
+    width: 90%;
+  }
+}
