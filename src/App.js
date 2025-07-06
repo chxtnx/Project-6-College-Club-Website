@@ -10,7 +10,7 @@ import Members from "./pages/Members";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/Project-6-College-Club-Website">
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
