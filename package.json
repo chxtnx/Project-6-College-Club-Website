@@ -2,6 +2,7 @@
   "name": "astronomy-club",
   "version": "0.1.0",
   "private": true,
+   "homepage": "https://chxtnx.github.io/Project-6-College-Club-Website",
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
